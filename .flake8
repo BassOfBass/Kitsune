@@ -1,0 +1,20 @@
+[flake8]
+ignore =
+    # Some template strings can easily go over the limit
+    E501,
+    # autopep8 formats some strings in a way that breaks line after operator
+    W504,
+    # Doesn't work well with __init__.py files
+    F401,
+    # flake struggles with endpoints returning tuples on exceptions
+    E722
+exclude =
+    .git,
+    __pycache__,
+    venv
+max-complexity = 14
+
+[pycodestyle]
+max_line_length = 120
+ignore =
+    E501

@@ -1,0 +1,16 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: 38b88246ccc552bffaaf54259d064beeee434539  # frozen: v4.0.1
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: check-added-large-files
+-   repo: https://github.com/pycqa/flake8
+    rev: 'cbeb4c9c4137cff1568659fcc48e8b85cddd0c8d'  # frozen: 4.0.1
+    hooks:
+    -   id: flake8
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: '7d14f78422aef2153a90e33373d2515bcc99038d'  # frozen: v1.5.7
+    hooks:
+    -   id: autopep8

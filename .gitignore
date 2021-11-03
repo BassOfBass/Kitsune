@@ -1,3 +1,6 @@
+# dev-only asset files
+development/assets
+
 # VSCode files
 *.code-workspace
 

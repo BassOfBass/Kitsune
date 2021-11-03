@@ -1,3 +1,21 @@
 {
-  "python.pythonPath": "venv/bin/python"
+  "editor.tabSize": 4,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.rulers": [
+    {
+      "column": 65,
+      "color": "orange"
+    },
+    {
+      "column": 120,
+      "color": "red"
+    },
+  ],
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--verbose"
+  ],
+  "python.formatting.autopep8Args": [],
 }
