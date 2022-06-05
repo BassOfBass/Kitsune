@@ -28,6 +28,9 @@ node_options = {
 # Top-level key prefixes ("keyspaces,") and their mappings to the nodes.
 # NOTE: New keyspaces in the source code require addition and configuration here.
 keyspaces = {
+    # counts for various entries
+    "counts": 0,
+    "artists": 0,
     "account": 0,
     "saved_key_import_ids": 0,
     "saved_keys": 0,
